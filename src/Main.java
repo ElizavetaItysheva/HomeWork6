@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 public class Main {
-    // метод к 1 задаче.
+    // метод к 1 задаче:
     public static boolean checkYearOnLeap( int year ) {
         boolean isYearleap;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
@@ -12,7 +12,7 @@ public class Main {
         return isYearleap;
     }
     //
-    // метод к 2 задаче.
+    // метод к 2 задаче:
     public static String checkPhoneSystemYear( int system, int phoneYear ) {
         int currentYear = LocalDate.now().getYear();
         String a;
@@ -32,7 +32,7 @@ public class Main {
         return a;
     }
     //
-    // метод к 3 задаче.
+    // метод к 3 задаче:
     public static String checkDistance(int distance){
         String deliveryDays;
         if (distance > 0 && distance < 20) {
